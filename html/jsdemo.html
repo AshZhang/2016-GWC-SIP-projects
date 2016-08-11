@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Example</title>
+    <script>
+      function myFunction() {
+        var words = document.getElementById("welcome");
+		if(words.innerHTML == "Welcome to my page!"){
+			words.innerHTML = "Thanks for visiting!";
+		}else{
+			words.innerHTML = "Welcome to my page!";
+		}
+      }
+	  function changeImg(){
+		var img = document.getElementById("img");
+		if(img.src.match("images/python/python_shapes.png")){
+			img.src = "images/python/python_madlibs.png";
+			img.alt = "A madlibs game in progress.";
+		}else{
+			img.src = "images/python/python_shapes.png";
+			img.alt = "Several colorful houses with a weird stop sign.";
+		}
+	}
+    </script>
+  </head>
+  <body>
+    <h1 id="welcome">Welcome to my page!</h1>
+    <button id="btn" onclick="changeImg()">Click me!</button>
+	<img src = "images/python/python_shapes.png" id = "img" alt = "Several colorful houses with a weird stop sign."></img>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+#site{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 70px;
+	margin-bottom: 60px;
+}
+h4{
+	color: #2A4975;
+	text-align: center;
+	font-family: "Corbel", Arial, Sans-serif;
+	display: inline-block;
+	font-size: 30px;
+	margin: 15px;
+	}
+#title{
+	color: #2A4975;
+	font-family: "Corbel", Arial, Sans-serif;
+	font-size: 40px;
+}
+#subtitle{
+	color: #68B9D4;
+	font-family: "Corbel", Arial, Sans-serif;
+	font-size: 22px;
+	margin-bottom: 40px;
+}
+#intro{
+	color: #19708C;
+	font-family: "Corbel", Arial, Sans-serif;
+	font-size: 16px;
+	margin-bottom: 30px;
+	}
+.label{
+	color: darkblue;
+	font-family: "Corbel", Arial, Sans-serif;
+	text-align: center;
+	display: block;
+	font-size: 17px;
+	
+}
+img{
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+	margin: 20px;
+}
+#arduinoInfo{
+	color: #04544B;
+	font-family: "Corbel", Arial, Sans-serif;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+ul{
+	color: #7C4EAD;
+	font-family: "Corbel", Arial, Sans-serif;
+	font-size: 16px;
+}
+#bioTitle{
+	color: #5A3285;
+	font-family: "Corbel", Arial, Sans-serif;
+	font-size: 20px;
+	margin: 15px;
+}
+#contact{
+	color: #5A3285;
+	font-family: "Corbel", Arial, Sans-serif;
+	font-size: 16px;
+	margin: 15px;
+}
+.language{
+	text-align: center;
+	margin-top: 80px;
+	background: #82E0FF;
+	border-radius: 20px;
+}
+.item{
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	vertical-align: text-top;
+	background: #D1F4FF;
+	
+	border-radius: 20px;
+}
+#links{
+	text-align: center;
+}
+#aboutme{
+	max-width: 1000px;
+	background: lavender;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 40px;
+	display: inline-block;
+}
